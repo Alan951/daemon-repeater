@@ -16,7 +16,7 @@ Finalmente, deberás de importar el plugin `dist/DaemonRepeater.jar` en Burp.
 
     BurupSuite -> Extender tab -> Add option -> Extension file (.jar).  
 
-#### Como usarlo
+### Como usarlo
 Cuando el servicio DaemonRepeater este inicializado, empezara a recibir los mensajes los cuales deberán de ser en formato JSON codificados en base64.
 
 Ejemplo de código:
@@ -41,3 +41,8 @@ let message = {
 client.write(Buffer.from(JSON.stringify(message)).toString('base64')+'\n');
 
 ```
+
+<p align="center">
+  <img width="780" src="https://raw.githubusercontent.com/Alan951/daemon-repeater/master/images/burp-req.PNG">
+</p>
+
