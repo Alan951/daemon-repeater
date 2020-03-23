@@ -19,7 +19,7 @@ Finalmente, deberás de importar el plugin `dist/DaemonRepeater.jar` en Burp.
 ### Como usarlo
 Cuando el servicio DaemonRepeater este inicializado, empezara a recibir los mensajes los cuales deberán de ser en formato JSON codificados en base64.
 
-Ejemplo de código:
+Ejemplo de uso con NodeJS:
 
 ```
 
